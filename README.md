@@ -6,9 +6,13 @@ through classes or on my own.
 
 Current methods used:
                       - Basic Linear Regression
+                      
                       - Logistic Regression (basic classification)
+                      
                       - Neural Network (advanced classification)
+                      
                       - K-Means (unsupervised clustering)
+                      
                       - PCA (dimension reduction)
                       
 Some of these methods implement minimization from scipy.optimize, and others use basic gradient descent.
@@ -16,17 +20,28 @@ Some of these methods implement minimization from scipy.optimize, and others use
 The current data set used is breast cancer data from kaggle, which can be found here: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 
 Current functionality:
+
                        - Neural Network:
                                         - Should work well with any numerical data, will fit structure to the data+output.
+                                        
                                         - Auto class to vectorized output.
+                                        
                                         - Regularization.
+                                        
                                         - Easy to manipulate number of hidden layers/nodes.
+                                        
                                         - Takes learning parameters (easy to loop over for optimization).
+                                  
+                                        
                        - K-Means:
                                   - Separates data into K groupings.
+                                  
                                   - plots groupings using reduced features.
+                                  
                                   - plots movement of centroids over iterations.
+                                  
                        - PCA:
                               - Reduces dimensions so that 99% of variance is retained.
+                              
                               - Finds unreduced features that contribute highly to separation after reduction.
                               
