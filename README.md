@@ -27,6 +27,8 @@ Current functionality:
                                         
                                         - Auto class to vectorized output.
                                         
+                                        - Forward/backprop algorithm for learning
+                                        
                                         - Regularization.
                                         
                                         - Easy to manipulate number of hidden layers/nodes.
