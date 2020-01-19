@@ -5,6 +5,7 @@ This script is a project I have created to showcase my understanding of machine 
 through classes or on my own.
 
 Current methods used:
+
                       - Basic Linear Regression
                       
                       - Logistic Regression (basic classification)
