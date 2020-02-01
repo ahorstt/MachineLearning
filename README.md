@@ -16,6 +16,8 @@ Current methods used:
                       
                       - PCA (dimension reduction)
                       
+                      - SVM (support vector machine)
+                      
 Some of these methods implement minimization from scipy.optimize, and others use basic gradient descent.
                    
 The current data set used is breast cancer data from kaggle, which can be found here: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
@@ -42,6 +44,10 @@ Current functionality:
                                   - plots groupings using reduced features.
                                   
                                   - plots movement of centroids over iterations.
+                                  
+                       - SVM:
+                                  - Separates data based on boundary with maximized separation
+        
                                   
                        - PCA:
                               - Reduces dimensions so that 99% of variance is retained.
